@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.head{
+    background-image: url("../images/header.jpg");
+    padding-bottom: 10px;
+    padding-left: 3px;
+    color: white;
+    background-repeat: no-repeat;
+    font-size: 33px;
+    background-size: 100%;
+}
+
+nav{
+    background-color: darkslategrey;
+    padding: 3px;
+}
+nav a {
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article{
+    padding-top: 3px;
+    margin-bottom: 2px;
+    background-color: lightgray;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+article header{
+    font-size: 27px;
+    color: black;
+    text-decoration: underline;
+}
