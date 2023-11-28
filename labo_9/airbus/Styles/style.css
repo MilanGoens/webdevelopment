@@ -1,145 +1,123 @@
-body
-{
+body  {
+    margin: 0px auto;
+    padding: 0px;
+    width : 95%;
     font-family: Arial, Helvetica, sans-serif;
-    width: 960px;
-    margin: -50px auto;
-    background-repeat: repeat-y;
-    background-size: 1015px;
-    background-position: center;
-    box-sizing: border-box;
-    background-color: white;
 }
 
-header
-{
+
+#news {
+    float:right;
+    width: 25%;
+    box-sizing: border-box;
+    color:#666666;
+    border: 1px solid #999999;
+    background-color:#dddddd;
+    font-size: 90%;
+}
+
+#main {
+    float:left;
+    width: 75%;
+}
+
+#top {
     height: 200px;
-    background-image: url('../images/bgsky3.jpg');
-    margin-top: 10px;
-}
-
-header p.hoofd
-{
     text-align: center;
-    color:darkblue;
-    font-size: 300%;
-    font-weight: bold;
-    font-style: italic;
+    background: url("../images/bgsky3.jpg") no-repeat;
+    background-size: cover;
+    position:relative; /* nodig om vliegtuig absoluut te positioneren tov dit element */
+    color : darkblue;
 }
 
-header p
-{
-    text-align: center;
-    color:darkblue;
-    font-size: 240%;
-    font-weight: bold;
+#top img {
+    position:absolute; /* vliegtuig absoluut positioneren tov dichtste non-static ancestor */
+    bottom:60px;
+    right: 250px;}
+
+
+#top h1 {
+margin : 0px;
+    font-size:300%;
+    font-style:italic;
+    font-weight:bold;
 }
 
-.vliegtuig
-{
-    position: absolute;
-    right: 300px;
-    top: 50px;
+#top p {
+    font-size:240%;
+    margin-top: 50px;
+    font-style:normal;
+    font-weight:bold;
 }
 
-aside
-{
-    float: right;
-    width: 250px;
-    box-sizing: border-box;
-    background-color: #dddddd;
-    border: #999999 solid 1px;
-    font-size:90%;
-}
-h3
-{
+
+#news h1 {
     color: white;
     background-color: blue;
-    text-align: center;
     font-size: 120%;
+    text-align:center;
 }
 
-aside p
-{
+#news p {
+    padding: 0px 10px;
+}
+
+
+.introduction {
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url(../images/airbus_logo.jpg) no-repeat top left;
+    padding : 0px 30px 20px 170px;
+
     font-size: 90%;
-    padding-left: 10px;
-}
-main
-{
-    width: 700px;
-    background-color: white;
-
-}
-
-.logo
-{
-    float: left;
-    padding: 20px 20px 0px 20px;
-}
-
-.intro
-
-{
-    text-align: left;
-    padding: 20px 30px 20px 140px;
+    text-align:justify;
 }
 
 
-
-span {
+.introduction span {
+    font-style:italic;
     color: blue;
-    font-weight: bold;
-    font-style: italic;
+    font-weight:bold;
 }
 
-.gallery
-{
+.gallery {
     background-color: #999999;
-    padding: 20px 0px 20px 20px;
+    padding : 10px 0px 10px 10px;
 }
 
-.foto
-{
-    padding: 10px;
-    border: #999999 dashed 1px;
-    background-color: white;
-
-    margin: 10px;
-    display: inline-block;
+.foto {
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+    background-color:white;
+    border: 1px dashed #999999;
 }
 
-.foto img
-{
-    width: 180px;
-    height: 180px;
+
+.foto>img {
+    padding: 10px 0px 0px 10px;
 }
 
-footer
-{
+.bottom {
+    clear : both;
     background-color: #666666;
     color:white;
+}
+
+.block {
+    display:inline-block;
+    margin-left: 120px;
+    margin-bottom:0px;
     line-height: 2em;
 }
-footer section article
-{
-    margin-left: 120px;
-    display: inline-block;
-}
-
-footer section article a
-{
+.block a {
     color: white;
 }
-
-footer section article a:hover
-{
+.block a:hover {
     color: red;
 }
 
-.copyright
-{
-    background-color: white;
-    width: 960px;
-    color:black;
-    text-align: center;
-    padding-top: 5px;
+.copyright p{
+    text-align:center;
 }
