@@ -1,0 +1,8 @@
+div{
+    display: block;
+    padding: 3px;
+}
+form{
+    border: 1px solid black;
+    width: 400px;
+}
