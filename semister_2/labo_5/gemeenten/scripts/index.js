@@ -2,7 +2,6 @@ const setup = () => {
 	// deze code wordt pas uitgevoerd als de pagina volledig is ingeladen
     gemeenten();
 }
-
 const gemeenten = () => {
     let gemeente = "";
     let gemeenten = [];

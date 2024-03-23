@@ -7,7 +7,7 @@ const setup = () => {
 const an = () => {
     let stringWaarde = document.getElementById("string").value.toLowerCase();
     let aantalAn = 0;
-
+w
     stringWaarde = stringWaarde.trim();
     for (let i = 0; i < stringWaarde.length; i++) {
         if (stringWaarde.charAt(i) === "a" && stringWaarde.charAt(i+1) === "n"){
