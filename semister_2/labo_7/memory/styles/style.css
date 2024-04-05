@@ -1,0 +1,26 @@
+#memory{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 900px;
+    height: 700px;
+    margin: auto;
+}
+
+.kaart{
+    width: 215px;
+    height: 215px;
+    position: relative;
+    border: solid black 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kaartCover {
+    width: 215px;
+    height: 215px;
+}
+
+.fout{
+    border: 1px solid red;
+}
