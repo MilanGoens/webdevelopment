@@ -1,0 +1,44 @@
+section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	width: 50%;
+	border: black solid 5px;
+	border-radius: 10px;
+}
+
+h3{
+	color: grey;
+}
+
+.sliders{
+	margin-left: 20px;
+}
+
+.vierkant{
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	border: lightgrey solid 1px ;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+#btnSave{
+	margin-left: 10px;
+}
+
+span{
+	margin-left: 10px;
+}
+
+.nieuwVierkant{
+	display: inline-block;
+}
+
+.deleteVierkant{
+	margin-bottom: 75%;
+	margin-left: 75%;
+}
